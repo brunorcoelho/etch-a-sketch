@@ -1,0 +1,48 @@
+body {
+  height: 700px;
+  overflow: auto;
+  background-color: gray;
+}
+
+.drawGrid {
+  display: grid;
+  height: 500px;
+  min-width: 500px;
+  border: 3px solid black;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(3, 119, 173);
+  height: 650px;
+  width: 800px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.etchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.buttons button {
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: 0;
+}
+
+.title {
+  font-size: 75px;
+}
